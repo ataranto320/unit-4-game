@@ -44,3 +44,16 @@ function loss() {
     $('#numberLosses').text(losses);
     reset()
 }
+
+//clicks for gems
+$('#one').on('click', function() {
+    total = total + gem1;
+    console.log("New total= " + total);
+    $('#finalTotal').text(total);
+    if (total == Random) {
+        win();
+    }
+    else if (total > Random) {
+        losses();
+    }
+})
