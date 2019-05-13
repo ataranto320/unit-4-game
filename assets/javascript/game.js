@@ -28,3 +28,12 @@ function reset() {
     userTotal = 0;
     $('#finalTotal').text(userTotal);
 }
+
+//add wins to total
+function win() {
+    alert("win");
+    wins++;
+    $('#numberWins').text(wins);
+    reset();
+}
+
