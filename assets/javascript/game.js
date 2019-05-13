@@ -37,3 +37,10 @@ function win() {
     reset();
 }
 
+//add loss to total
+function loss() {
+    alert("lose");
+    losses++;
+    $('#numberLosses').text(losses);
+    reset()
+}
