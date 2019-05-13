@@ -26,7 +26,7 @@ function reset() {
     gem3 = Math.floor(Math.random()*11+1);
     gem4 = Math.floor(Math.random()*11+1);
     userTotal = 0;
-    $('#finalTotal').text(userTotal);
+    $('#finalTotal').text(total);
 }
 
 //add wins to total
