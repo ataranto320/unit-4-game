@@ -5,4 +5,27 @@ img{
 
 body{
     position: center;
+    background-image: url(https://goop.com/wp-content/uploads/2016/11/crystals-img4-1.jpg);
+    background-size: cover;
 }
+
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+.col-3{
+    color: white;
+}
+

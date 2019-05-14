@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 // select random number at start of game
 var Random = Math.floor(Math.random()*101+19)
 
@@ -93,3 +95,4 @@ $('#four').on('click', function() {
         losses();
     }
 })
+});
