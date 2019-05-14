@@ -44,7 +44,7 @@ function loss() {
     alert("lose");
     losses++;
     $('#numberLosses').text(losses);
-    reset()
+    reset();
 }
 
 //clicks for gems
