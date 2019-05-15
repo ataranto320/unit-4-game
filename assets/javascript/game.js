@@ -61,7 +61,7 @@ $('#one').on('click', function() {
 })
 
 $('#two').on('click', function() {
-    total = total + gem1;
+    total = total + gem2;
     console.log("New total= " + total);
     $('#finalTotal').text(total);
     if (total == Random) {
@@ -73,7 +73,7 @@ $('#two').on('click', function() {
 })
 
 $('#three').on('click', function() {
-    total = total + gem1;
+    total = total + gem3;
     console.log("New total= " + total);
     $('#finalTotal').text(total);
     if (total == Random) {
@@ -85,7 +85,7 @@ $('#three').on('click', function() {
 })
 
 $('#four').on('click', function() {
-    total = total + gem1;
+    total = total + gem4;
     console.log("New total= " + total);
     $('#finalTotal').text(total);
     if (total == Random) {
