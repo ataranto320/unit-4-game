@@ -40,7 +40,7 @@ function win() {
 }
 
 //add loss to total
-function loss() {
+function losses() {
     alert("lose");
     losses++;
     $('#numberLosses').text(losses);
