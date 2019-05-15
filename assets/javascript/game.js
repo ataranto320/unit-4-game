@@ -18,7 +18,7 @@ var losses = 0;
 $('#numberWins').text(wins);
 $('#numberLosses').text(losses);
 
-//reset game
+//reset game//
 function reset() {
     Random = Math.floor(Math.random()*101+19);
     console.log(Random)
@@ -31,7 +31,7 @@ function reset() {
     $('#finalTotal').text(total);
 }
 
-//add wins to total
+//add wins to total//
 function win() {
     alert("win");
     wins++;
@@ -39,7 +39,7 @@ function win() {
     reset();
 }
 
-//add loss to total
+//add loss to total//
 function losses() {
     alert("lose");
     losses++;
