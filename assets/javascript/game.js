@@ -27,25 +27,39 @@ function reset() {
     gem2 = Math.floor(Math.random()*11+1);
     gem3 = Math.floor(Math.random()*11+1);
     gem4 = Math.floor(Math.random()*11+1);
-    userTotal = 0;
+    total = 0;
     $('#finalTotal').text(total);
 }
 
-//add wins to total//
-function win() {
-    alert("win");
+function check() {
+    if (total == Random) {
+    alert ("win");
     wins++;
     $('#numberWins').text(wins);
     reset();
-}
-
-//add loss to total//
-function losses() {
-    alert("lose");
+    }
+    if (total > Random) {
+    alert ("lose");
     losses++;
     $('#numberLosses').text(losses);
     reset();
+    }
 }
+// //add wins to total//
+// function win() {
+//     alert("win");
+//     wins++;
+//     $('#numberWins').text(wins);
+//     reset();
+// }
+
+// //add loss to total//
+// function losses() {
+//     alert("lose");
+//     losses++;
+//     $('#numberLosses').text(losses);
+//     reset();
+// }
 
 // function score() {
 //     if (total == Random) {
@@ -67,47 +81,27 @@ $('#one').on('click', function() {
     total = total + gem1;
     console.log("New total= " + total);
     $('#finalTotal').text(total);
-    if (total == Random) {
-        win();
-    }
-    else if (total != Random) {
-        losses();
-    }
+    check();
 })
 
 $('#two').on('click', function() {
     total = total + gem2;
     console.log("New total= " + total);
     $('#finalTotal').text(total);
-    if (total == Random) {
-        win();
-    }
-    else if (total != Random) {
-        losses();
-    }
+    check();
 })
 
 $('#three').on('click', function() {
     total = total + gem3;
     console.log("New total= " + total);
     $('#finalTotal').text(total);
-    if (total == Random) {
-        win();
-    }
-    else if (total != Random) {
-        losses();
-    }
+    check();
 })
 
 $('#four').on('click', function() {
     total = total + gem4;
     console.log("New total= " + total);
     $('#finalTotal').text(total);
-    if (total == Random) {
-        win();
-    }
-    else if (total != Random) {
-        losses();
-    }
+    check();
 })
 });
