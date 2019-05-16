@@ -47,6 +47,21 @@ function losses() {
     reset();
 }
 
+// function score() {
+//     if (total == Random) {
+//         alert("win");
+//         wins++;
+//         $('#numberWins').text(wins);
+//     }
+//     else (total > Random) {
+//         alert("lose");
+//         losses++;
+//         $('#numberLosses').text(losses);
+//     }
+// }
+
+
+
 //clicks for gems
 $('#one').on('click', function() {
     total = total + gem1;
@@ -55,7 +70,7 @@ $('#one').on('click', function() {
     if (total == Random) {
         win();
     }
-    else if (total > Random) {
+    else if (total != Random) {
         losses();
     }
 })
@@ -67,7 +82,7 @@ $('#two').on('click', function() {
     if (total == Random) {
         win();
     }
-    else if (total > Random) {
+    else if (total != Random) {
         losses();
     }
 })
@@ -79,7 +94,7 @@ $('#three').on('click', function() {
     if (total == Random) {
         win();
     }
-    else if (total > Random) {
+    else if (total != Random) {
         losses();
     }
 })
@@ -91,7 +106,7 @@ $('#four').on('click', function() {
     if (total == Random) {
         win();
     }
-    else if (total > Random) {
+    else if (total != Random) {
         losses();
     }
 })
