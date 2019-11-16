@@ -7,3 +7,4 @@ Approached game by first breaking it up into sections. The description of the ga
 - HTML5
 - CSS
 - JavaScript
+- jQuery
