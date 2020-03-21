@@ -10,6 +10,8 @@ Each crystal icon has a randomized value every new game. Starting from 0 for eac
 
 ![](assets/images/crystals.png)
 
+Languages:
+
 - HTML5
 - CSS
 - JavaScript
